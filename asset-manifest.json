@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.431e0ae7.chunk.css",
+    "main.js": "/resume/static/js/main.3e4b9e0a.chunk.js",
+    "main.js.map": "/resume/static/js/main.3e4b9e0a.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.39af25b7.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.39af25b7.js.map",
+    "static/js/2.a25b3666.chunk.js": "/resume/static/js/2.a25b3666.chunk.js",
+    "static/js/2.a25b3666.chunk.js.map": "/resume/static/js/2.a25b3666.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.7bdc38af30bee3155d31c03ab383be02.js": "/resume/precache-manifest.7bdc38af30bee3155d31c03ab383be02.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.431e0ae7.chunk.css.map": "/resume/static/css/main.431e0ae7.chunk.css.map",
+    "static/js/2.a25b3666.chunk.js.LICENSE.txt": "/resume/static/js/2.a25b3666.chunk.js.LICENSE.txt",
+    "static/media/Facebook_Logo.png": "/resume/static/media/Facebook_Logo.88847fcd.png",
+    "static/media/Gmail_Icon.png": "/resume/static/media/Gmail_Icon.be2c0b6d.png",
+    "static/media/Instagram-icon-WHITE.png": "/resume/static/media/Instagram-icon-WHITE.5e7b7fb1.png",
+    "static/media/Telegram.png": "/resume/static/media/Telegram.c938bf07.png",
+    "static/media/adsad.png": "/resume/static/media/adsad.90c4441d.png",
+    "static/media/bootstrap.png": "/resume/static/media/bootstrap.ca8fb687.png",
+    "static/media/css.png": "/resume/static/media/css.ffaff636.png",
+    "static/media/figma.png": "/resume/static/media/figma.edf9a3bc.png",
+    "static/media/github_PNG.png": "/resume/static/media/github_PNG.e3bd5c90.png",
+    "static/media/instagram.png": "/resume/static/media/instagram.165565e7.png",
+    "static/media/json.png": "/resume/static/media/json.0df82260.png",
+    "static/media/linkedIn_PNG38.png": "/resume/static/media/linkedIn_PNG38.57ed21a2.png",
+    "static/media/logoTelegram.png": "/resume/static/media/logoTelegram.7a48d808.png",
+    "static/media/oxford.png": "/resume/static/media/oxford.09e0f887.png",
+    "static/media/postman.png": "/resume/static/media/postman.af3b083d.png",
+    "static/media/react-icon-png-7.png": "/resume/static/media/react-icon-png-7.85ca750b.png",
+    "static/media/vue.png": "/resume/static/media/vue.96e5850d.png",
+    "static/media/whatsapp.png": "/resume/static/media/whatsapp.232b5c95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39af25b7.js",
+    "static/js/2.a25b3666.chunk.js",
+    "static/css/main.431e0ae7.chunk.css",
+    "static/js/main.3e4b9e0a.chunk.js"
+  ]
+}
