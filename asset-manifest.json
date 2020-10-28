@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.f53f91a7.chunk.css",
-    "main.js": "/resume/static/js/main.9df9f126.chunk.js",
-    "main.js.map": "/resume/static/js/main.9df9f126.chunk.js.map",
+    "main.css": "/resume/static/css/main.c4c34e69.chunk.css",
+    "main.js": "/resume/static/js/main.3896d0ec.chunk.js",
+    "main.js.map": "/resume/static/js/main.3896d0ec.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.39af25b7.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.39af25b7.js.map",
     "static/js/2.2345a24d.chunk.js": "/resume/static/js/2.2345a24d.chunk.js",
     "static/js/2.2345a24d.chunk.js.map": "/resume/static/js/2.2345a24d.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.7a66e8b1aab7f619f15dab4537815c38.js": "/resume/precache-manifest.7a66e8b1aab7f619f15dab4537815c38.js",
+    "precache-manifest.5eaa8e9ce267cd277ae0cde0ee8cf02d.js": "/resume/precache-manifest.5eaa8e9ce267cd277ae0cde0ee8cf02d.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.f53f91a7.chunk.css.map": "/resume/static/css/main.f53f91a7.chunk.css.map",
+    "static/css/main.c4c34e69.chunk.css.map": "/resume/static/css/main.c4c34e69.chunk.css.map",
     "static/js/2.2345a24d.chunk.js.LICENSE.txt": "/resume/static/js/2.2345a24d.chunk.js.LICENSE.txt",
     "static/media/Facebook_Logo.png": "/resume/static/media/Facebook_Logo.88847fcd.png",
     "static/media/Gmail_Icon.png": "/resume/static/media/Gmail_Icon.be2c0b6d.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.39af25b7.js",
     "static/js/2.2345a24d.chunk.js",
-    "static/css/main.f53f91a7.chunk.css",
-    "static/js/main.9df9f126.chunk.js"
+    "static/css/main.c4c34e69.chunk.css",
+    "static/js/main.3896d0ec.chunk.js"
   ]
 }
