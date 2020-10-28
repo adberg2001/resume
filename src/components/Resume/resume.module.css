@@ -1,0 +1,162 @@
+.mainCont {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 20px 15px;
+    padding: 0 1px;
+    border-left: 2px solid var(--fourth-color);
+    border-right: 2px solid var(--fourth-color);
+    justify-content: space-between;
+}
+
+.cont {
+    height: 40vh;
+    position: relative;
+    transition: .4s ease;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont:hover {
+    width: 300%;
+}
+
+.cont:hover h3 {
+    opacity: 0;
+}
+
+.cont:hover .title {
+    display: block;
+}
+
+.cont:hover .titleCont {
+    grid-template-rows: 0 1fr;
+}
+
+.titleCont {
+    height: 40vh;
+    display: grid;
+    transition: .4s ease;
+    margin: 10px auto;
+    grid-template-rows: 1fr 0;
+}
+
+.border {
+    height: 35vh;
+    width: 3px;
+    margin: 0 1px;
+    background: var(--fourth-color);
+}
+
+.null {
+    display: none;
+}
+
+.h3 {
+    align-self: center;
+    justify-self: center;
+    font-family: var(--second-font);
+    font-size: 2vw;
+    margin: 0;
+    opacity: 1;
+    color: var(--first-color);
+}
+
+.title {
+    width: 35vw;
+    display: none;
+}
+
+@media (max-width: 1252px) {
+    .mainCont {
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 0;
+    }
+    .cont {
+        height: 100%;
+        transition: .4s ease;
+    }
+    .wrapper {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title {
+        width: unset;
+    }
+    .cont:hover {
+        width: 100%;
+        height: 250%;
+    }
+    .cont:hover .border {
+        opacity: 0;
+    }
+    .titleCont {
+        height: unset;
+    }
+    .border {
+        height: 1px;
+        width: 100%;
+    }
+    .cont:hover .titleCont {
+        height: 250px;
+    }
+    .h3 {
+        font-size: 2vw;
+    }
+}
+
+@media(max-height: 600px) {
+    .cont:hover .titleCont {
+        height: 200px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-sizing: content-box;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: var(--third-color);
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

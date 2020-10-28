@@ -1,0 +1,5 @@
+.mainCont{
+    height: 340px;
+    display: flex;
+    align-items: center;
+}

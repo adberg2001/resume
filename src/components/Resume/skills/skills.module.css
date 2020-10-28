@@ -1,0 +1,195 @@
+.mainCont {
+    padding: 15px 10px;
+}
+
+.cont {
+    margin-bottom: 50px;
+}
+
+.h3 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: var(--first-font);
+    color: var(--first-color);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cell,
+.cell2,
+.cell3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .1s ease-in-out;
+    margin: 0.2vw;
+    background: rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.cell {
+    width: 10vw;
+    height: 3vw;
+}
+
+.cell2,
+.cell3 {
+    width: 10vw;
+    height: 3vw;
+}
+
+.cellTitle,
+.cellTittle {
+    display: flex;
+    opacity: 1;
+    transition: .1s ease-in-out;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.img {
+    height: 2.3vw;
+    width: 2.3vw;
+    object-fit: contain;
+}
+
+.h5 {
+    font-family: var(--second-font);
+    font-size: 1vw;
+    margin: 0;
+    transition: 1s ease-in-out;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.rangeCont {
+    width: 0;
+    position: absolute;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+}
+
+.rangeCont div {
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    color: var(--first-color);
+    font-family: var(--second-font);
+    border-right: 5px solid var(--fifth-color);
+    font-size: 1.01vw;
+    font-weight: 800;
+    background: white;
+}
+
+.rangeCont div span {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    font-weight: 400;
+    color: var(--fourth-color);
+    font-size: 1vw;
+    margin-right: auto;
+}
+
+.cell:hover,
+.cell2:hover,
+.cell3:hover {
+    transform: scale(1.05);
+}
+
+.cell3:hover {
+    border-right: 5px solid var(--first-color);
+    background: #fff;
+    font-size: 18px;
+}
+
+.cell:hover .cellTitle,
+.cell2:hover .cellTitle {
+    opacity: 0;
+}
+
+.cell:hover .rangeCont,
+.cell2:hover .rangeCont {
+    width: 100%;
+    opacity: 1;
+}
+
+@media (max-width: 1252px) {
+    .h3 {
+        font-size: 30px;
+    }
+    .cell:hover .cellTitle,
+    .cell2:hover .cellTitle {
+        opacity: 0;
+    }
+    .cell:hover .rangeCont,
+    .cell2:hover .rangeCont {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1050px) {
+    .cell:hover .cellTitle,
+    .cell2:hover .cellTitle {
+        opacity: 1;
+    }
+    .cell:hover .rangeCont,
+    .cell2:hover .rangeCont {
+        width: 0;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .h3 {
+        font-size: 28px;
+    }
+    .cell,
+    .cell2,
+    .cell3 {
+        margin: 5px 2px;
+        cursor: pointer;
+    }
+    .cell,
+    .cell2,
+    .cell3 {
+        width: 90%;
+        height: 40px;
+    }
+    .img {
+        height: 30px;
+    }
+    .rangeCont div span {
+        top: 2px;
+        line-height: 11px;
+        font-size: 10px;
+        margin-right: auto;
+    }
+    .h5 {
+        font-size: 2vw;
+    }
+}
+
+@media (max-height: 560px) {
+    .cell:hover .cellTitle,
+    .cell2:hover .cellTitle {
+        opacity: unset;
+    }
+    .cell:hover .rangeCont,
+    .cell2:hover .rangeCont {
+        width: 0;
+        opacity: 0;
+    }
+}

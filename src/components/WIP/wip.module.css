@@ -1,0 +1,25 @@
+.div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: var(--second-font);
+    justify-content: center;
+}
+.div p{
+    margin: 0;
+    color: var(--first-color);
+    font-size: 64px;
+    transition: .12s ease-in-out;
+}
+
+@media (max-width: 768px){
+    .div p{
+        font-size: 44px;
+    }
+}
+@media (max-width: 576px){
+    .div p{
+        font-size: 28px;
+    }
+}
