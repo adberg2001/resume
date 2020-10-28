@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.22c18c22.chunk.css",
+    "main.css": "/resume/static/css/main.bf131961.chunk.css",
     "main.js": "/resume/static/js/main.508c3985.chunk.js",
     "main.js.map": "/resume/static/js/main.508c3985.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.39af25b7.js",
@@ -8,9 +8,9 @@
     "static/js/2.a25b3666.chunk.js": "/resume/static/js/2.a25b3666.chunk.js",
     "static/js/2.a25b3666.chunk.js.map": "/resume/static/js/2.a25b3666.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.2e970d7c6987b3cd85080c0448156d3f.js": "/resume/precache-manifest.2e970d7c6987b3cd85080c0448156d3f.js",
+    "precache-manifest.070017dc4fe9ee43363d778adb5a7c17.js": "/resume/precache-manifest.070017dc4fe9ee43363d778adb5a7c17.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.22c18c22.chunk.css.map": "/resume/static/css/main.22c18c22.chunk.css.map",
+    "static/css/main.bf131961.chunk.css.map": "/resume/static/css/main.bf131961.chunk.css.map",
     "static/js/2.a25b3666.chunk.js.LICENSE.txt": "/resume/static/js/2.a25b3666.chunk.js.LICENSE.txt",
     "static/media/Facebook_Logo.png": "/resume/static/media/Facebook_Logo.88847fcd.png",
     "static/media/Gmail_Icon.png": "/resume/static/media/Gmail_Icon.be2c0b6d.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.39af25b7.js",
     "static/js/2.a25b3666.chunk.js",
-    "static/css/main.22c18c22.chunk.css",
+    "static/css/main.bf131961.chunk.css",
     "static/js/main.508c3985.chunk.js"
   ]
 }
